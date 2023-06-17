@@ -120,3 +120,29 @@ a {
 object {
   margin-right: 5px;
 }
+
+@media only screen and (max-width: 835px) {
+  body {
+    flex-direction: column;
+  }
+
+  .left {
+    width: auto;
+    border-right: none;
+  }
+
+  .right {
+    width: auto;
+    padding: 0;
+  }
+
+  .left-h4 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #ref-sec {
+    flex-direction: column;
+  }
+}
