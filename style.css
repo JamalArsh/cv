@@ -64,6 +64,8 @@ a {
   background-color: #20262e;
   padding: 0.5rem;
   color: white;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .tech-skills {
